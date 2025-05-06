@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ @font-face{
+    font-family:poppins-bold;
+    src:url(../fonts/Poppins-Bold.ttf)}
+ @font-face{
+    font-family:poppins-medium;
+    src:url(../fonts/Poppins-Medium.ttf)}        
+ @font-face{       
+    font-family:poppins-regular;
+    src:url(../fonts/Poppins-Regular.ttf)}                        
+ @font-face{          
+    font-family:poppins-semibold;            
+    src:url(../fonts/Poppins-SemiBold.ttf)}                
+
+header{
+    padding: 44px 88px;
+}
+header ul{
+    width: 563px;
+    height: 43px;
+}
+header a{
+    color: black;
+    font-family: poppins-semibold;
+    font-size: 20px;
+}
+.btn a{
+    padding: 16px 32px;
+    background-color: #fdc72d;
+    border-radius: 61px;
+    transition: 0.5s;
+}
+.btn a:hover{
+    border-radius: 0%;
+}
+.indexarticle{
+ padding: 0 40px 0 80px;   
+}
+.indexarticle section{
+    width: 466px;
+}
+.indexarticle h2{
+    font-size: 60px;
+    font-family: poppins-bold;
+}
+.indexarticle p{
+    font-size: 20px;
+    color: #777776;
+    width: 394px;
+    font-family: poppins-regular;
+    margin: 36px 0 52px 0;
+}
+.indexarticle .btn a{
+    color: #000000;
+    font-size: 20px;
+    font-family: poppins-semibold;
+}
+
+/*----------------
+about us page
+-----------------*/
+.aboutarticle{
+    padding: 71px 78px 107px 78px;
+
+}
+.aboutarticle h2{
+    width: 461px;
+    font-size: 40px;
+    font-family: Poppins-Medium;
+}
+.aboutarticle p{
+    width: 511px;
+    font-size: 20px;
+    color: #777776;
+    font-family: Poppins-Medium;
+    margin-top: 30px;
+}
+
+/*----------------
+services page
+-----------------*/
+.services{
+    width: 380px;
+    font-size: 40px;
+    font-family: Poppins-SemiBold;
+    text-align: center;
+    margin: 48px auto;
+}
+.servicearticle{
+    width: 380px;
+    height: 380px;
+    box-shadow: 0 0 15px #777776;
+    border-radius: 15px;
+    text-align: center;
+    padding: 35px 72px 36px 73px;
+}
+.servicearticle h3{
+    font-size: 20px;
+    font-family: Poppins-SemiBold;
+    margin-bottom: 34px;
+}
+.servicearticle p:nth-child(3){
+    font-size: 15px;
+    font-family: Poppins-Medium;
+    color: #777776;
+    margin: 30px 0 25px 0;
+}
+.servicearticle p a{
+    color: #000000;
+    font-size: 15px;
+    font-family: Poppins-SemiBold;
+}
+.servic{
+    padding: 54px;
+}
+.service3{
+    padding:158px 115px 145px 86px;
+}
+
+.service3 h2{
+    width: 439px;
+    font-size:40px;
+    font-family:poppins-medium;
+}
+.service3 p{
+    width: 510px;
+    font-size: 20px;
+    font-family:poppins-medium;
+    color: #777776;
+    margin-top: 25px;
+}
+.service3 .btn a{
+    color: #000000;
+    font-size: 20px;
+    font-family: poppins-semibold;
+}
+/*?????*/
+
+/*----------------
+contact page
+-----------------*/
+.contactus h2{
+    width: 461px;
+    font-size: 40px;
+    font-family: Poppins-semibold;
+}
+.esp{
+    width: 511px;
+    font-size: 20px;
+    color: #777776;
+    font-family: Poppins-semibold;
+    margin-top: 30px;
+}
+.contactus{
+    margin: 140px 114px 78px 81px;
+
+}
+.sakontacto{
+    margin: 174px 160px 143px 114px;
+    padding: ;
+    width: 280px;
+    height: 145px;
+}
+.sakontacto p{
+    font-size: 20px;
+    font-family: Poppins-semibold;
+}
+.sakontacto span{
+    color: #777776;
+    font-size: 20px;
+    font-family: Poppins-semibold;
+}
+.knopka .btn a{
+    color: #000000;
+    font-family: poppins-semibold;
+}
+footer{
+    padding:93px 209px 47px 112px;
+    width: 100%;
+    height: 450px;
+    background-color:#FEE395;
+}
+.flex .foot{
+margin-left: 112px;
+width: 183px;
+}
+section h2{
+  font-size: 20px;
+  font-family: poppins-semibold;
+  color: #000000;
+  margin: 0px 119px 19px 0px;
+}
+section ul a{
+    font-size: 15px;
+    font-family: poppins-semibold;
+    color: #777776;
+}
+.foot.flex{
+    align-items: flex-start;
+}
+footer ul{
+    width: 183px;}
+.copy{
+    text-align: center;
+    color:#777776 ;
+    margin-top: 122px;
+    font-size: 15px;
+    font-family:poppins-medium;
+}
